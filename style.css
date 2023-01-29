@@ -1,0 +1,15 @@
+html {
+  font-family: "Times New Roman", serif;
+}
+h1 {
+  font-size: 48px;
+  text-align: center;
+}
+h2 {
+  font-size: 36px;
+  text-align: left;
+}
+p {
+  font-size: 20px;
+  text-align: justify;
+}
