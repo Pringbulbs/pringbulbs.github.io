@@ -9,23 +9,39 @@ h1 {
 p {
   text-align: justify;
 }
-.button {
-  background-color: #04AA6D;
-  border: none;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
+
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  overflow: hidden;
 }
-.button1 {
-  background-color: #ddddff;
-  border: 1px solid;
-  color: #ddddff;
-  padding: 40px 200px;
+li {
+  float: left;
+  border-right: 1px solid white;
+}
+li:first-child {
+  margin-left: none;
+}
+li:last-child {
+  border-right: none;
+  border-left: 1px solid white;
+}
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
   font-size: 20px;
-  cursor: pointer;
-  border-radius: 10%;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+.active{
+  background-color: darkred;
+}
+li a:hover {
+  background-color: #555;
 }
