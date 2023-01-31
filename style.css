@@ -13,6 +13,7 @@ p {
 ul {
   position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
   list-style-type: none;
   margin: 0;
@@ -23,9 +24,7 @@ ul {
 li {
   float: left;
   border-right: 1px solid white;
-}
-li:first-child {
-  margin-left: none;
+  margin-left: 0;
 }
 li:last-child {
   border-right: none;
@@ -42,6 +41,6 @@ li a {
 .active{
   background-color: darkred;
 }
-li a:hover {
+li a:hover:not(.active) {
   background-color: #555;
 }
