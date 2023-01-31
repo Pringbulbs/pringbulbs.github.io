@@ -10,14 +10,22 @@ p {
   text-align: justify;
 }
 .button {
-  background-color: #eeeeff;
-  border: 2px solid;
-  color: black;
-  padding: 160px 800px;
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+.button1 {
+  background-color: #ddddff;
+  border: 1px solid;
+  color: #ddddff;
+  padding: 40px 200px;
   font-size: 20px;
-  margin: 40px 20px;
   cursor: pointer;
+  border-radius: 10%;
 }
