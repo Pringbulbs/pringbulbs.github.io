@@ -10,10 +10,10 @@ p {
   text-align: justify;
 }
 .button {
-  background-color: #dddddd;
-  border: none;
-  color: blue;
-  padding: 16px 32px;
+  background-color: #eeeeff;
+  border: 2px solid;
+  color: black;
+  padding: 16px 80px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
