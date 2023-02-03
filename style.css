@@ -10,6 +10,9 @@ h1 {
 p {
   text-align: justify;
 }
+a {
+  text-decoration: none;
+}
 
 .navbar {
   position: fixed;
@@ -19,7 +22,7 @@ p {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #6300d6;
+  background-color: #444;
   overflow: hidden;
   border-radius: 12px;
 }
@@ -44,10 +47,10 @@ p {
   transition-duration: 0.5s;
 }
 .active{
-  background-color: #c21964;
+  background-color: #e13;
 }
 .navbarBox:hover:not(.active) {
-  background-color: #c8a9d6;
+  background-color: #bbb;
 }
 .navbarItem:hover:not(.active) {
   color: black;
@@ -57,14 +60,14 @@ p {
   position: fixed;
   bottom: 10px;
   right: 10px;
-  background-color: #c8a9d6;
+  background-color: #444;
   border-radius: 12px;
   padding: 7px 7px;
 }
 
 .contact {
   margin: 0;
-  background-color: #eec9ff;
+  background-color: #ddd;
   border-radius: 12px;
   padding: 1px 15px;
 }
