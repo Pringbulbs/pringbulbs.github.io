@@ -2,9 +2,14 @@
 html {
   font-family: "Albert Sans", sans-serif;
   scroll-behavior: smooth;
+  background-image: url('images/background_p.png');
+  border-radius: 6px;
 }
 h1 {
   font-size: 48px;
+  text-align: center;
+}
+h2 {
   text-align: center;
 }
 p {
@@ -47,7 +52,7 @@ a {
   transition-duration: 0.5s;
 }
 .active{
-  background-color: #e13;
+  background-color: #1334a4;
 }
 .navbarBox:hover:not(.active) {
   background-color: #bbb;
@@ -63,6 +68,17 @@ a {
   background-color: #444;
   border-radius: 12px;
   padding: 7px 7px;
+  transition-duration: 0.5s;
+}
+.gototop:hover {
+  background-color: #bbb;
+}
+
+.presentation {
+  margin: 0;
+  background-color: #ddd;
+  border-radius: 12px;
+  padding: 1px 15px;
 }
 
 .contact {
